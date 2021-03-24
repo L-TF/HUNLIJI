@@ -1,0 +1,15 @@
+<template name="29984717">
+  <view class="_div data-v-3f72d358 box">
+    <swiper class="_swiper data-v-3f72d358 swiper" autoplay="{{true}}" circular="{{true}}" current="0" indicator-dots="{{true}}">
+      <swiper-item class="_swiper-item data-v-3f72d358 item">
+        <image mode="aspectFit" style="wdith:100%;height:100vh" lazy-load="true" src="/static/photo/2.jpg" class="_img data-v-3f72d358 slide-image"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-3f72d358 item">
+        <image mode="aspectFit" style="wdith:100%;height:100vh" lazy-load="true" src="/static/photo/1.jpg" class="_img data-v-3f72d358 slide-image"></image>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-3f72d358 item">
+        <image mode="aspectFit" style="wdith:100%;height:100vh" lazy-load="true" src="/static/photo/3.jpg" class="_img data-v-3f72d358 slide-image"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+</template>

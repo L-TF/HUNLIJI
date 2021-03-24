@@ -1,0 +1,12 @@
+<import src="/components/vabrrge/index.vue.wxml" /><template name="9a45e344">
+  <view class="_div data-v-539f884a home">
+    <view style=" text-align: center;" class="_h2 data-v-539f884a">Vue-barrage 基于vue的弹幕组件</view>
+    <view style="height:400px;width:800px; position: relative;margin:0px auto;background:#000;" class="_div data-v-539f884a"><template data="{{...$root[$kk+'0'], $root}}" is="17be09a9"></template></view>
+    <view class="_div data-v-539f884a barrage-control"><input type="text" value="{{sendContent}}" bindinput="handleProxy" placeholder="回车发送" id="sendContent" bindkeyup="handleProxy" data-eventid="{{'2_0'}}" data-comkey="{{$k}}" class="_input data-v-539f884a" /> 方向: <picker style="margin:0px 12px;" value="{{direction}}" bindchange="handleProxy" data-eventid="{{'2_1'}}" data-comkey="{{$k}}" class="_select data-v-539f884a">
+        <view value="default" class="_option data-v-539f884a">默认</view>
+        <view value="top" class="_option data-v-539f884a">顶部</view>
+      </picker>
+      <checkbox value="{{isJs}}" bindchange="handleProxy" data-eventid="{{'2_2'}}" data-comkey="{{$k}}" class="_input data-v-539f884a" /> js弹幕(直接写代码) <button id="sendBarrageBtn" style="margin-left:25px;" bindtap="handleProxy" data-eventid="{{'2_3'}}" data-comkey="{{$k}}" class="_button data-v-539f884a">发送</button> <button id="pauseBtn" bindtap="handleProxy" data-eventid="{{'2_4'}}" data-comkey="{{$k}}" class="_button data-v-539f884a">暂停</button> <button id="startBtn" bindtap="handleProxy" data-eventid="{{'2_5'}}" data-comkey="{{$k}}" class="_button data-v-539f884a">开始</button>
+    </view>
+  </view>
+</template>

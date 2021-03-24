@@ -1,0 +1,9 @@
+<template name="17be09a9">
+  <view class="_section data-v-5ed08bcc barrage-wrapper" ref="barrageWrapper" style=" {{('height:' + (percent + '%') + ';')}}">
+    <view class="_div data-v-5ed08bcc barrage-main">
+      <view class="_div data-v-5ed08bcc barrage-main-dm {{[isPause ? 'ani-pause' : '', !isPause ? 'ani-running' : '']}}" ref="barrageMainDm">
+        <view class="_div data-v-5ed08bcc barrage-item top-item self-dm"> 123 </view>
+      </view>
+    </view>
+  </view>
+</template>

@@ -1,0 +1,24 @@
+<import src="/components/indexSwiper.vue.wxml" /><template name="9722cee0">
+  <view class="_div data-v-6b1ce7cd index">
+    <view class="_div data-v-6b1ce7cd bg-swiper"><template data="{{...$root[$kk+'0'], $root}}" is="6b3309db"></template></view>
+    <image class="_img data-v-6b1ce7cd inv" src="/static/images/inv.png"></image>
+    <view class="_div data-v-6b1ce7cd bg_music" wx:if="{{isPlay}}" bindtap="handleProxy" data-eventid="{{'1_1'}}" data-comkey="{{$k}}">
+      <image src="/static/images/music_icon.png" class="_img data-v-6b1ce7cd musicImg music_icon"></image>
+      <image src="/static/images/music_play.png" class="_img data-v-6b1ce7cd music_play pauseImg"></image>
+    </view>
+    <view class="_div data-v-6b1ce7cd bg_music" wx:else bindtap="handleProxy" data-eventid="{{'1_0'}}" data-comkey="{{$k}}">
+      <image src="/static/images/music_icon.png" class="_img data-v-6b1ce7cd musicImg"></image>
+      <image src="/static/images/music_play.png" class="_img data-v-6b1ce7cd music_play playImg"></image>
+    </view>
+    <view class="_div data-v-6b1ce7cd info" animation="{{animationData}}">
+      <view class="_div data-v-6b1ce7cd content">
+        <view class="_h1 data-v-6b1ce7cd">雷腾飞 <label class="_span data-v-6b1ce7cd">❤</label> 王楠楠</view>
+        <view class="_p data-v-6b1ce7cd">谨定于 2020年05月1日（星期六）</view>
+        <view class="_p data-v-6b1ce7cd">农历 三月二十 举办婚礼</view>
+        <view class="_p data-v-6b1ce7cd">席设：宏泰酒店</view>
+        <view class="_p data-v-6b1ce7cd">地址：地图开发中</view>
+        <image src="/static/images/we.png" class="_img data-v-6b1ce7cd img_footer"></image>
+      </view>
+    </view>
+  </view>
+</template>

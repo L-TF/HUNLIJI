@@ -1,0 +1,7 @@
+<template name="791ae6a8">
+  <view class="_div data-v-af623c62 section"><video id="myVideo" src="https://www.runoob.com/try/demo_source/movie.mp4" class="_video data-v-af623c62"></video>
+    <view class="_div data-v-af623c62 btn-area"><input bindblur="handleProxy" placeholder="请输入临时弹幕，真实弹幕来自留言" placeholder-style="color:#bbb" data-eventid="{{'2_0'}}" data-comkey="{{$k}}" class="_input data-v-af623c62" /> <button bindtap="handleProxy" data-eventid="{{'2_1'}}" data-comkey="{{$k}}" class="_button data-v-af623c62">点击生成临时弹幕</button>
+      <image src="../../static/images/close1.png" bindtap="handleProxy" data-eventid="{{'2_2'}}" data-comkey="{{$k}}" class="_image data-v-af623c62"></image>
+    </view>
+  </view>
+</template>

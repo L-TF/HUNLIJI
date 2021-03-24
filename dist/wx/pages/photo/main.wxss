@@ -1,0 +1,19 @@
+
+.photo.data-v-0be9c52d {
+  height: 100%;
+}
+.box.data-v-3f72d358 {
+  position: relative;
+  height: 100%;
+}
+.box .swiper.data-v-3f72d358 {
+  height: 100%;
+  width: 100%;
+}
+.box .swiper .item.data-v-3f72d358 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
